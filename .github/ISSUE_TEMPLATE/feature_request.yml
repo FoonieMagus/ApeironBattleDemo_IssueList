@@ -33,7 +33,7 @@ body:
       placeholder: Any additional description.
 
   - type: checkboxes
-    id: terms
+    id: not-duplicated-feaature-request-terms
     attributes:
       label: This is not a duplicated feature request
       options:
@@ -41,7 +41,7 @@ body:
           required: true
 
   - type: checkboxes
-    id: terms
+    id: no-personal-information-provided-terms
     attributes:
       label: No personal information provided
       options: 
@@ -49,9 +49,9 @@ body:
           required: true
 
   - type: checkboxes
-    id: terms
+    id: open-ticket-if-needed-terms
     attributes:
-      label: No personal information provided
+      label: Open ticket if needed
       options: 
-        - label: In the event that personal information is required, I understand that I am expected to open a ticket in the Discord channel and reference the specific issue on Github.
+        - label: In the event that personal information is required, I understand that I am expected to open a ticket in the [Discord](https://discord.gg/apeironnft) channel and reference the specific issue on Github.
           required: true
