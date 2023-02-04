@@ -1,0 +1,58 @@
+name: 🍭 Feature Request
+description: Submit a new feature request
+title: "[🍭 Feature Request]: "
+labels: ['feature request']
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Please ensure the feature requested is not listed in [feature request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues?q=label%3Afeature+request+type%3Aissue) and provide all the information required by this template.
+        Otherwise the issue will be closed immediately.
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: What feature is it?
+      placeholder: Please describe the feature you want to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this feature solve?
+      placeholder: Please describe the problem this feature solves.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Additional description
+      placeholder: Any additional description.
+
+  - type: checkboxes
+    id: not-duplicated-feaature-request-terms
+    attributes:
+      label: This is not a duplicated feature request
+      options:
+        - label: I have searched [feature request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues?q=label%3Afeature+request+type%3Aissue) to ensure this feature has not already been requested .
+          required: true
+
+  - type: checkboxes
+    id: no-personal-information-provided-terms
+    attributes:
+      label: No personal information provided
+      options: 
+        - label: I confirm that I have not provided any personal information such as my wallet address or email address in this contribution.
+          required: true
+
+  - type: checkboxes
+    id: open-ticket-if-needed-terms
+    attributes:
+      label: Open ticket if needed
+      options: 
+        - label: In the event that personal information is required, I understand that I am expected to open a ticket in the [Discord](https://discord.gg/apeironnft) channel and reference the specific issue on Github.
+          required: true
