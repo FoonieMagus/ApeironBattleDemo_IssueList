@@ -52,7 +52,7 @@ body:
       description: logs, errors, etc.
       render: shell
     validations:
-      required: true
+      required: false
 
   - type: checkboxes
     id: terms
