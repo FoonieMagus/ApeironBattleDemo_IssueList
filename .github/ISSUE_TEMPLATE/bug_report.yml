@@ -23,7 +23,7 @@ body:
     attributes:
       label: Environment
       description: Please provide your OS, OS Language, Display Card, CPU. You can find the required information on [Mac](https://support.apple.com/en-my/guide/system-information/syspr35536/mac) or on [Windows](https://support.microsoft.com/en-us/windows/open-and-run-dxdiag-exe-dad7792c-2ad5-f6cd-5a37-bf92228dfd85).
-      placeholder: 'OS: Windwow 11 Pro\\nOS Language: English\\nDisplay Card: NVIDIA GeForce RTX 3070 Ti Laptop GPU\\nCPU: 12th Gen Intel(R) i9-12900H'
+      placeholder: 'OS: Windwow 11 Pro\r\n\r\nOS Language: English\r\n\r\nDisplay Card: NVIDIA GeForce RTX 3070 Ti Laptop GPU\r\n\r\nCPU: 12th Gen Intel(R) i9-12900H'
     validations:
       required: true
 
