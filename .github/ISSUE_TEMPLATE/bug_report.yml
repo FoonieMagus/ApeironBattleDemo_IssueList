@@ -59,7 +59,7 @@ body:
     attributes:
       label: This is not a duplicated issue
       options:
-        - label: I have searched [existing issues](https://github.com/DIYgod/RSSHub/issues) to ensure this bug has not already been reported
+        - label: I have searched [existing issues](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues?q=label%3Afeature+request+type%3Abug) to ensure this bug has not already been reported
           required: true
 
   - type: checkboxes
