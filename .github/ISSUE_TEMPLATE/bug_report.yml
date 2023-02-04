@@ -42,10 +42,6 @@ body:
       OS Language: English, 
       Display Card: NVIDIA GeForce RTX 3070 Ti Laptop GPU, 
       CPU: 12th Gen Intel(R) i9-12900H'
-      default: 'OS:
-      OS Language:
-      Display Card:
-      CPU:'
     validations:
       required: true
 
