@@ -9,6 +9,24 @@ body:
       value: |
         Please ensure you have read [bug report](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues?q=label%3Afeature+request+type%3Abug), and provide all the information required by this template, otherwise the issue will be closed immediately.
 
+  - type: input
+    id: demo-version
+    attributes:
+      label: Battle Demo Version
+      description: Version of Battle Demo
+      placeholder: v0.3.8
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment-info
+    attributes:
+      label: Environment
+      description: Please provide your OS, OS Language, Display Card, CPU. You can find the required information on [Mac](https://support.apple.com/en-my/guide/system-information/syspr35536/mac) or on [Windows](https://support.microsoft.com/en-us/windows/open-and-run-dxdiag-exe-dad7792c-2ad5-f6cd-5a37-bf92228dfd85).
+      placeholder: 'OS: Windwow 11 Pro\nOS Language: English\nDisplay Card: NVIDIA GeForce RTX 3070 Ti Laptop GPU\nCPU: 12th Gen Intel(R) i9-12900H'
+    validations:
+      required: true
+
   - type: textarea
     id: what-expected
     attributes:
@@ -31,19 +49,6 @@ body:
       placeholder: https://youtu.be/...
     validations:
       required: false
-
-
-  - type: textarea
-    id: environment-info
-    attributes:
-      label: Environment
-      description: Please provide your OS, OS Language, Display Card, CPU. You can find the required information on [Mac](https://support.apple.com/en-my/guide/system-information/syspr35536/mac) or on [Windows](https://support.microsoft.com/en-us/windows/open-and-run-dxdiag-exe-dad7792c-2ad5-f6cd-5a37-bf92228dfd85).
-      placeholder: 'OS: Windwow 11 Pro, 
-      OS Language: English, 
-      Display Card: NVIDIA GeForce RTX 3070 Ti Laptop GPU, 
-      CPU: 12th Gen Intel(R) i9-12900H'
-    validations:
-      required: true
 
   - type: textarea
     id: logs
