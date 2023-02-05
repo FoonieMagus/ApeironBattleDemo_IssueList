@@ -70,26 +70,26 @@ If you need further assistance, you can watch the [YouTube tutorial](https://you
 
 ### Open an Issue
 
-- To open an issue in this repository, follow these steps:
+To open an issue in this repository, follow these steps:
 
-    1. Go to the [Issues](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues) tab in the repository.
-    ![](https://i.imgur.com/usbfNYG.png)
+1. Go to the [Issues](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues) tab in the repository.
+![](https://i.imgur.com/usbfNYG.png)
 
-    2. Click the "[New issue](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new/choose)" button.
-    ![](https://i.imgur.com/UlPvtqy.png)
-
-
-    3. Select the appropriate template based on your needs:
-    ![](https://i.imgur.com/34mZ1K0.png)
-
-        - [Bug Report](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5B%F0%9F%90%9B+Bug+Report%5D%3A+): For reporting any newly discovered bugs.
-        - [Feature Request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=feature+request&template=feature_request.yml&title=%5B%F0%9F%8D%AD+Feature+Request%5D%3A+): For submitting your feature requests and contributing to the ongoing development and improvement of the Battle Demo.
-        - [Questions and Help](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=questions+and+help&template=question.yml&title=%5B%F0%9F%A4%94+Questions+and+Help%5D%3A+): For asking questions and receiving support regarding the demo.
+2. Click the "[New issue](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new/choose)" button.
+![](https://i.imgur.com/UlPvtqy.png)
 
 
-    4. Fill in the details of your issue, including a descriptive title and detailed description.
+3. Select the appropriate template based on your needs:
+![](https://i.imgur.com/34mZ1K0.png)
 
-    5. Click the "Submit new issue" button to submit your issue.
+    - [Bug Report](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5B%F0%9F%90%9B+Bug+Report%5D%3A+): For reporting any newly discovered bugs.
+    - [Feature Request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=feature+request&template=feature_request.yml&title=%5B%F0%9F%8D%AD+Feature+Request%5D%3A+): For submitting your feature requests and contributing to the ongoing development and improvement of the Battle Demo.
+    - [Questions and Help](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=questions+and+help&template=question.yml&title=%5B%F0%9F%A4%94+Questions+and+Help%5D%3A+): For asking questions and receiving support regarding the demo.
+
+
+4. Fill in the details of your issue, including a descriptive title and detailed description.
+
+5. Click the "Submit new issue" button to submit your issue.
 
 ### Criteria for Closing an Issue
 1. The primary responsibility for closing an issue falls on the Author of the issue.
