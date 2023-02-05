@@ -37,7 +37,7 @@ body:
     attributes:
       label: This is not a duplicated feature request
       options:
-        - label: I have searched [feature request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues?q=label%3Afeature+request+type%3Aissue) to ensure this feature has not already been requested .
+        - label: I have searched [feature request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues?q=label%3Afeature+request) to ensure this feature has not already been requested .
           required: true
 
   - type: checkboxes
