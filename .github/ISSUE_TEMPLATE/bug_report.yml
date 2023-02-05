@@ -49,7 +49,7 @@ body:
     id: reproducible-bugs
     attributes:
       label: Reproducible Bugs
-      description: Kindly confirm if the issue is reproducible and provide the step-by-step process to reproduce it, if applicable. 
+      description: Kindly confirm if the issue is reproducible and provide the step-by-step process to reproduce it, if applicable.
     validations:
       required: false
 
@@ -67,7 +67,6 @@ body:
     attributes:
       label: Additional info
       description: logs, errors, etc.
-      render: shell
     validations:
       required: false
 
