@@ -10,10 +10,15 @@ Apeiron’s long awaited Battle Demo is finally live! An actual “playable” e
 
 This repository is used to track public bugs and encourage users to post discovered bugs, give suggestions, or engage in discussion. If you encounter any issues or have suggestions for improvements, please submit them at [here](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new/choose).
 
-[![Windows Download](https://img.shields.io/badge/Windows-v0.3.8-brightgreen)](https://res.apeironnft.com/download/client/production/Apeiron0.3.8_win.zip)
-[![macOS Download](https://img.shields.io/badge/macOS-v0.3.8-brightgreen)](https://res.apeironnft.com/download/client/production/Apeiron0.3.8_mac.zip)
-[![telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram)](https://t.me/apeiron_official)
-[![Twitter Follow](https://img.shields.io/twitter/follow/ApeironNFT?style=social)](https://twitter.com/ApeironNFT)
+[![Windows Download](https://img.shields.io/badge/Windows-v0.3.8-brightgreen?style=for-the-badge)](https://res.apeironnft.com/download/client/production/Apeiron0.3.8_win.zip)
+[![macOS Download](https://img.shields.io/badge/macOS-v0.3.8-brightgreen?style=for-the-badge)](https://res.apeironnft.com/download/client/production/Apeiron0.3.8_mac.zip)
+[![Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/apeironnft)
+[![Twitter Follow](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ApeironNFT)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/apeiron_official)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.apeironnft.com/)
+
+
+
 
 ## Table of Contents
 
@@ -57,8 +62,8 @@ This repository is used to track public bugs and encourage users to post discove
 To install the demo version of Battle, follow these steps:
 
 1. Download the demo version
-   [![Windows Download](https://img.shields.io/badge/Windows-v0.3.8-brightgreen)](https://res.apeironnft.com/download/client/production/Apeiron0.3.8_win.zip)
-   [![macOS Download](https://img.shields.io/badge/macOS-v0.3.8-brightgreen)](https://res.apeironnft.com/download/client/production/Apeiron0.3.8_mac.zip)
+   [![Windows Download](https://img.shields.io/badge/Windows-v0.3.8-brightgreen?style=for-the-badge)](https://res.apeironnft.com/download/client/production/Apeiron0.3.8_win.zip)
+   [![macOS Download](https://img.shields.io/badge/macOS-v0.3.8-brightgreen?style=for-the-badge)](https://res.apeironnft.com/download/client/production/Apeiron0.3.8_mac.zip)
 2. Extract the contents of the downloaded file to a desired location on your computer.
 3. Open the extracted folder and double-click the `Apeiron.exe/Apeiron0.3.8_mac.app` file to begin the game.
 
