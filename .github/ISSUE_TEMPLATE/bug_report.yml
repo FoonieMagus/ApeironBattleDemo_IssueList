@@ -1,7 +1,7 @@
 name: 🐛 Bug Report
 description: Submit discovered bugs
 title: "[🐛 Bug Report]: "
-labels: ['bug']
+labels: ["bug"]
 
 body:
   - type: markdown
@@ -14,10 +14,11 @@ body:
     attributes:
       label: Environment
       description: Please provide your OS, OS Language, Display Card, CPU. You can find the required information on [Mac](https://support.apple.com/en-my/guide/system-information/syspr35536/mac) or on [Windows](https://support.microsoft.com/en-us/windows/open-and-run-dxdiag-exe-dad7792c-2ad5-f6cd-5a37-bf92228dfd85).
-      placeholder: 'OS: Windows 11 Pro, 
-      OS Language: English, 
-      Display Card: NVIDIA GeForce RTX 3070 Ti Laptop GPU, 
-      CPU: 12th Gen Intel(R) i9-12900H'
+      placeholder: |
+        OS: Windwow 11 Pro
+        OS Language: English
+        Display Card: NVIDIA GeForce RTX 3070 Ti Laptop GPU
+        CPU: 12th Gen Intel(R) i9-12900H
     validations:
       required: true
 
@@ -73,7 +74,7 @@ body:
     id: no-personal-information-provided-terms
     attributes:
       label: No personal information provided
-      options: 
+      options:
         - label: I confirm that I have not provided any personal information such as my wallet address or email address in this contribution.
           required: true
 
@@ -81,6 +82,6 @@ body:
     id: open-ticket-if-needed-terms
     attributes:
       label: Open ticket if needed
-      options: 
+      options:
         - label: In the event that personal information is required, I understand that I am expected to open a ticket in the [Discord](https://discord.gg/apeironnft) channel and reference the specific issue on Github.
           required: true
