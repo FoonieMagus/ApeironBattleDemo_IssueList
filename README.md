@@ -34,9 +34,6 @@ This repository is used to track public bugs and encourage users to post discove
 
 4. [Feature Request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=feature+request&template=feature_request.yml&title=%5B%F0%9F%8D%AD+Feature+Request%5D%3A+): Users can submit their feature requests to the developers and contribute to the ongoing development and improvement of the Battle Demo.
 
-5. Discussion Forum: An open discussion forum is available for users to engage in conversations and provide suggestions for the Battle Demo.
-
-
 ## Getting Started
 
 ### Recommended System Requirements
