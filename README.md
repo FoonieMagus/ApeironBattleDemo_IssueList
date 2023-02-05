@@ -17,9 +17,6 @@ This repository is used to track public bugs and encourage users to post discove
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/apeiron_official)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.apeironnft.com/)
 
-
-
-
 ## Table of Contents
 
 - [Features](#features)
