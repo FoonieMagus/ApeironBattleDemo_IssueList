@@ -82,9 +82,9 @@ To open an issue in this repository, follow these steps:
 3.  Select the appropriate template based on your needs:
     ![](https://i.imgur.com/34mZ1K0.png)
 
-        - [Bug Report](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5B%F0%9F%90%9B+Bug+Report%5D%3A+): For reporting any newly discovered bugs.
-        - [Feature Request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=feature+request&template=feature_request.yml&title=%5B%F0%9F%8D%AD+Feature+Request%5D%3A+): For submitting your feature requests and contributing to the ongoing development and improvement of the Battle Demo.
-        - [Questions and Help](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=questions+and+help&template=question.yml&title=%5B%F0%9F%A4%94+Questions+and+Help%5D%3A+): For asking questions and receiving support regarding the demo.
+      - [Bug Report](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5B%F0%9F%90%9B+Bug+Report%5D%3A+): For reporting any newly discovered bugs.
+      - [Feature Request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=feature+request&template=feature_request.yml&title=%5B%F0%9F%8D%AD+Feature+Request%5D%3A+): For submitting your feature requests and contributing to the ongoing development and improvement of the Battle Demo.
+      - [Questions and Help](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=questions+and+help&template=question.yml&title=%5B%F0%9F%A4%94+Questions+and+Help%5D%3A+): For asking questions and receiving support regarding the demo.
 
 4.  Fill in the details of your issue, including a descriptive title and detailed description.
 
