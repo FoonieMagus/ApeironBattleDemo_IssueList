@@ -1,10 +1,9 @@
 name: 🍭 Feature Request
 description: Submit a new feature request
 title: "[🍭 Feature Request]: "
-labels: ['feature request']
+labels: ["feature request"]
 
 body:
-
   - type: markdown
     attributes:
       value: |
@@ -45,7 +44,7 @@ body:
     id: no-personal-information-provided-terms
     attributes:
       label: No personal information provided
-      options: 
+      options:
         - label: I confirm that I have not provided any personal information such as my wallet address or email address in this contribution.
           required: true
 
@@ -53,6 +52,6 @@ body:
     id: open-ticket-if-needed-terms
     attributes:
       label: Open ticket if needed
-      options: 
+      options:
         - label: In the event that personal information is required, I understand that I am expected to open a ticket in the [Discord](https://discord.gg/apeironnft) channel and reference the specific issue on Github.
           required: true
