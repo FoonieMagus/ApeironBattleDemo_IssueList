@@ -6,9 +6,9 @@
   </a>
 </p>
 
-Apeiron’s long awaited Battle Demo is finally live! An actual “playable” experience with clever level design, meaningful talent x combo choices, challenging enemies and phenomenal in-game cinematics!
+Apeiron’s long awaited Battle Demo is finally live! For the first time, you can explore the godiverse and Apeiron's foundational gameplay, with clever level design, meaningful talent x combo choices, challenging enemies and phenomenal in-game cinematics!!
 
-This repository is used to track public bugs and encourage users to post discovered bugs, give suggestions, or engage in discussion. If you encounter any issues or have suggestions for improvements, please submit them at [here](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new/choose).
+This repository is used to track public bugs and encourage users to post discovered bugs, give suggestions, or engage in discussion. If you encounter any issues or have suggestions for improvements, please submit them [here](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new/choose).
 
 [![Download](https://img.shields.io/badge/Platform-Windows_|_macOS-brightgreen?style=for-the-badge)](https://marketplace.apeironnft.com/battle/demo/download/)
 [![Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/apeironnft)
@@ -30,9 +30,9 @@ This repository is used to track public bugs and encourage users to post discove
 
 1. [Tracking of Public Bugs](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues): This repository provides a platform for tracking and reporting any bugs found in the Battle Demo.
 
-2. [Bug Submission](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5B%F0%9F%90%9B+Bug+Report%5D%3A+): Users can submit any newly discovered bugs for quick resolution and improvement of the demo.
+2. [Bug Submission](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5B%F0%9F%90%9B+Bug+Report%5D%3A+): Users can submit any newly discovered bugs for quick resolution and demo improvement.
 
-3. [Questions and Help](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=questions+and+help&template=question.yml&title=%5B%F0%9F%A4%94+Questions+and+Help%5D%3A+): This repository also provides a platform for users to ask questions and receive support regarding the demo.
+3. [Questions and Help](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=questions+and+help&template=question.yml&title=%5B%F0%9F%A4%94+Questions+and+Help%5D%3A+): This repository provides a platform for users to ask questions and receive support regarding the demo.
 
 4. [Feature Request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=feature+request&template=feature_request.yml&title=%5B%F0%9F%8D%AD+Feature+Request%5D%3A+): Users can submit their feature requests to the developers and contribute to the ongoing development and improvement of the Battle Demo.
 
@@ -82,9 +82,9 @@ To open an issue in this repository, follow these steps:
 3.  Select the appropriate template based on your needs:
     ![](https://i.imgur.com/34mZ1K0.png)
 
-      - [Bug Report](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5B%F0%9F%90%9B+Bug+Report%5D%3A+): For reporting any newly discovered bugs.
-      - [Feature Request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=feature+request&template=feature_request.yml&title=%5B%F0%9F%8D%AD+Feature+Request%5D%3A+): For submitting your feature requests and contributing to the ongoing development and improvement of the Battle Demo.
-      - [Questions and Help](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=questions+and+help&template=question.yml&title=%5B%F0%9F%A4%94+Questions+and+Help%5D%3A+): For asking questions and receiving support regarding the demo.
+    - [Bug Report](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5B%F0%9F%90%9B+Bug+Report%5D%3A+): For reporting any newly discovered bugs.
+    - [Feature Request](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=feature+request&template=feature_request.yml&title=%5B%F0%9F%8D%AD+Feature+Request%5D%3A+): For submitting your feature requests and contributing to the ongoing development and improvement of the Battle Demo.
+    - [Questions and Help](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new?assignees=&labels=questions+and+help&template=question.yml&title=%5B%F0%9F%A4%94+Questions+and+Help%5D%3A+): For asking questions and receiving support regarding the demo.
 
 4.  Fill in the details of your issue, including a descriptive title and detailed description.
 
