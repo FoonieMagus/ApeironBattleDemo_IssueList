@@ -1,0 +1,35 @@
+name: Add Labels to Issues
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Add labels based on demo environment
+        uses: actions/github-script@v4
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const environment = issue.fields['demo-environment'];
+            
+            if (environment === 'Production') {
+              github.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['production']
+              });
+            } else if (environment === 'Beta Test') {
+              github.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['beta']
+              });
+            }
