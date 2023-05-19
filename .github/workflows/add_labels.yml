@@ -16,20 +16,22 @@ jobs:
         with:
           script: |
             const issue = context.payload.issue;
-            const environment = issue.fields['demo-environment'];
-            
+            const issueBodyLines = issue.body.split('\n');
+            const fieldLine = issueBodyLines.find(line => line.includes('Demo Environment'));
+            const environment = fieldLine.split(':')[1].trim();
+            const labelsToAdd = [];
+
             if (environment === 'Production') {
-              github.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                labels: ['production']
-              });
+              labelsToAdd.push('production');
             } else if (environment === 'Beta Test') {
+              labelsToAdd.push('beta');
+            }
+
+            if (labelsToAdd.length > 0) {
               github.issues.addLabels({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issue.number,
-                labels: ['beta']
+                labels: labelsToAdd
               });
             }
