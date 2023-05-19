@@ -9,6 +9,18 @@ body:
       value: |
         Please ensure you have read [bug report](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues?q=label%3Abug), and provide all the information required by this template, otherwise the issue will be closed immediately.
 
+  - type: dropdown
+    id: demo-environment
+    attributes:
+      label: Demo Environment
+      description: Environment of Battle Demo
+      multiple: false
+      options:
+        - Production
+        - Beta Test
+    validations:
+      required: true
+
   - type: input
     id: demo-version
     attributes:
@@ -19,9 +31,9 @@ body:
       required: true
 
   - type: textarea
-    id: environment-info
+    id: system-environment
     attributes:
-      label: Environment
+      label: System Environment
       description: Please provide your OS, OS Language, Display Card, CPU. You can find the required information on [Mac](https://support.apple.com/en-my/guide/system-information/syspr35536/mac) or on [Windows](https://support.microsoft.com/en-us/windows/open-and-run-dxdiag-exe-dad7792c-2ad5-f6cd-5a37-bf92228dfd85).
       placeholder: |
         OS: Windwow 11 Pro
