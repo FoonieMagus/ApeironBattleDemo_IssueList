@@ -1,37 +1,41 @@
-name: Add Labels to Issues
+name: Add Label to New Issues
 on:
   issues:
     types:
       - opened
 
+permissions:
+  issues: write
+
 jobs:
-  add-labels:
+  add_label:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Add labels based on demo environment
-        uses: actions/github-script@v4
+      - name: Set Label Output
+        id: label
+        run: |
+          if [[ "${{ github.event.issue.labels }}" != *"production"* && "${{ github.event.issue.labels }}" != *"beta"* ]]; then
+            if [[ "${{ github.event.issue.body }}" == *"Production"* ]]; then
+              echo "label=production" >> $GITHUB_OUTPUT
+            elif [[ "${{ github.event.issue.body }}" == *"Beta Test"* ]]; then
+              echo "label=beta" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Apply Label
+        id: apply-label
+        uses: actions/github-script@v6
         with:
           script: |
-            const issue = context.payload.issue;
-            const issueBodyLines = issue.body.split('\n');
-            const fieldLine = issueBodyLines.find(line => line.includes('Demo Environment'));
-            const environment = fieldLine.split(':')[1].trim();
-            const labelsToAdd = [];
-
-            if (environment === 'Production') {
-              labelsToAdd.push('production');
-            } else if (environment === 'Beta Test') {
-              labelsToAdd.push('beta');
-            }
-
-            if (labelsToAdd.length > 0) {
-              github.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issue.number,
-                labels: labelsToAdd
-              });
-            }
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["${{ steps.label.outputs.label }}"]
+            })
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
