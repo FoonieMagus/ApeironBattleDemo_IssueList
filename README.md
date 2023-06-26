@@ -11,7 +11,7 @@ Apeiron’s long awaited Battle Demo is finally live! For the first time, you ca
 This repository is used to track public bugs and encourage users to post discovered bugs, give suggestions, or engage in discussion. If you encounter any issues or have suggestions for improvements, please submit them [here](https://github.com/FoonieMagus/ApeironBattleDemo_IssueList/issues/new/choose).
 
 [![Download](https://img.shields.io/badge/Platform-Windows_|_macOS-brightgreen?style=for-the-badge)](https://marketplace.apeironnft.com/battle/demo/download/)
-[![Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/apeironnft)
+[![Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/apeiron-doodaria)
 [![Twitter Follow](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ApeironNFT)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/apeiron_official)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://blog.apeironnft.com/)
